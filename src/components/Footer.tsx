@@ -5,10 +5,10 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Github, href: 'https://github.com/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/afaqkhan301/', label: 'LinkedIn' },
+    // { icon: Twitter, href: '#', label: 'Twitter' },
+    // { icon: Instagram, href: 'https://www.instagram.com/', label: 'Instagram' },
     { icon: Mail, href: 'mailto:thedevstudio71@gmail.com', label: 'Email' },
   ];
 
@@ -116,9 +116,6 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
               © {currentYear} DevStudio. All rights reserved.
-            </p>
-            <p className="text-gray-400 text-sm flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500" /> using React & Tailwind CSS
             </p>
           </div>
         </div>
