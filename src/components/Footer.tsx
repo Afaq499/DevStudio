@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Mail, href: 'mailto:hello@devstudio.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:thedevstudio71@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -97,11 +97,11 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="text-gray-400">
                 <strong className="text-white">Email:</strong><br />
-                hello@devstudio.com
+                thedevstudio71@gmail.com
               </div>
               <div className="text-gray-400">
                 <strong className="text-white">Phone:</strong><br />
-                +1 (555) 123-4567
+                +1 (845) 207-6498
               </div>
               <div className="text-gray-400">
                 <strong className="text-white">Location:</strong><br />

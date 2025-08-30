@@ -33,21 +33,21 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@devstudio.com',
-      link: 'mailto:hello@devstudio.com'
+      value: 'thedevstudio71@gmail.com',
+      link: 'mailto:thedevstudio71@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+1 (845) 207-6498',
+      link: 'tel:+18452076498'
     },
-    {
-      icon: MapPin,
-      label: 'Location',
-      value: 'San Francisco, CA',
-      link: '#'
-    },
+    // {
+    //   icon: MapPin,
+    //   label: 'Location',
+    //   value: 'San Francisco, CA',
+    //   link: '#'
+    // },
   ];
 
   if (isSubmitted) {
@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16">
+        <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-bold text-gray-800 mb-8">Get In Touch</h3>
@@ -125,7 +125,7 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form */}
-          <div>
+          {/* <div>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -201,7 +201,7 @@ const Contact: React.FC = () => {
                 <Send className="w-5 h-5" />
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

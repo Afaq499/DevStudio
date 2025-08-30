@@ -46,13 +46,13 @@ const Hero: React.FC = () => {
 
           {/* Social Links */}
           <div className="flex justify-center gap-6">
-            <a href="#" className="text-white/70 hover:text-cyan-400 transition-colors duration-200">
+            <a href="https://github.com/" className="text-white/70 hover:text-cyan-400 transition-colors duration-200">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white/70 hover:text-cyan-400 transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/afaqkhan301/" className="text-white/70 hover:text-cyan-400 transition-colors duration-200">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white/70 hover:text-cyan-400 transition-colors duration-200">
+            <a href="mailto:thedevstudio71@gmail.com" className="text-white/70 hover:text-cyan-400 transition-colors duration-200">
               <Mail className="w-6 h-6" />
             </a>
           </div>
