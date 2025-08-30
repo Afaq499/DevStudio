@@ -79,7 +79,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          {/* Contact Information */}
+          {/* Contact Information - Updated Layout */}
           <div>
             <h3 className="text-2xl font-bold text-gray-800 mb-8">Get In Touch</h3>
             
